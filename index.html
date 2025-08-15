@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <h1>CSS Box Model Demonstration</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <h2>Understanding the CSS Box Model</h2>
+            <p class="intro-text">
+                The CSS Box Model is a fundamental concept that describes how elements are structured and spaced on a web page. 
+                Every HTML element is essentially a rectangular box consisting of content, padding, border, and margin.
+            </p>
+        </section>
+
+        <!-- Box Model Examples -->
+        <section class="examples-section">
+            <h2>Box Model Examples</h2>
+            
+            <div class="box-container">
+                <div class="box example-1">
+                    <h3>Content Only</h3>
+                    <p>This box has minimal styling with just content.</p>
+                </div>
+
+                <div class="box example-2">
+                    <h3>With Padding</h3>
+                    <p>This box demonstrates padding - the space between content and border.</p>
+                </div>
+
+                <div class="box example-3">
+                    <h3>With Border</h3>
+                    <p>This box shows a visible border around the padding and content.</p>
+                </div>
+
+                <div class="box example-4">
+                    <h3>With Margin</h3>
+                    <p>This box has margin - the space outside the border that separates it from other elements.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Card Layout Section -->
+        <section class="cards-section">
+            <h2>Card Layout Examples</h2>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>Design Principles</h3>
+                    <p>Good design follows consistent spacing patterns and visual hierarchy through proper use of the box model.</p>
+                    <button class="card-button">Learn More</button>
+                </article>
+
+                <article class="card">
+                    <h3>Layout Techniques</h3>
+                    <p>Understanding margins, padding, and borders allows you to create professional-looking layouts with precise spacing.</p>
+                    <button class="card-button">Explore</button>
+                </article>
+
+                <article class="card highlighted">
+                    <h3>Best Practices</h3>
+                    <p>Consistent application of box model properties creates cohesive and maintainable stylesheets.</p>
+                    <button class="card-button primary">Get Started</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Information Section -->
+        <section class="info-section">
+            <div class="info-box">
+                <h2>Key Concepts</h2>
+                <ul class="concept-list">
+                    <li><strong>Content:</strong> The actual content of the element (text, images, etc.)</li>
+                    <li><strong>Padding:</strong> Space between content and border (inside the element)</li>
+                    <li><strong>Border:</strong> A line around the padding and content</li>
+                    <li><strong>Margin:</strong> Space outside the border (separates from other elements)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>&copy; John Maxwell.</p>
+        <p>PLP python week3 assignment.</p>
+    </footer>
+</body>
+</html>
